@@ -30,7 +30,7 @@
 
 Name:           jsch
 Version:        0.1.50
-Release:        5%{?dist}
+Release:        4%{?dist}
 Epoch:          0
 Summary:        Pure Java implementation of SSH2
 Group:          Development/Libraries
@@ -131,9 +131,6 @@ install -p -m 644 %{SOURCE3} $RPM_BUILD_ROOT%{_mavenpomdir}/JPP-%{name}.pom
 
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 00.1.50-5
-- Mass rebuild 2013-12-27
-
 * Fri Jul 19 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0:0.1.50-4
 - Remove unneeded copyright header
 
